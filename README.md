@@ -116,7 +116,9 @@ Flask web app for saving and organising code snippets, with form handling and a 
 
 **AI tooling**<br/>
 <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code"/>
-<img src="https://img.shields.io/badge/Local%20LLMs-2D333B?style=flat-square&logoColor=white" alt="Local LLMs"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/>
+<img src="https://img.shields.io/badge/gpt--oss-412991?style=flat-square&logo=openai&logoColor=white" alt="gpt-oss"/>
+<img src="https://img.shields.io/badge/Qwen-615CED?style=flat-square&logo=qwen&logoColor=white" alt="Qwen"/>
 
 **Hardware & tools**<br/>
 <img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" alt="Arduino"/>
