@@ -33,9 +33,22 @@
 <tr>
 <td width="50%" valign="top">
 
+#### 🚁 Quadcopter Flight Controller
+
+Flight controller written from scratch in C++ for an Arduino Nano: MPU-6050 sensor fusion with a complementary filter, cascaded PID stabilisation at 250 Hz, safety interlocks, and a Wi-Fi ground station in Python.
+
+Bench-tested · unit tests and firmware build in CI
+
+`C++` `Arduino` `Python` `GitHub Actions`
+
+[Code](https://github.com/Vioxacute/quadcopter-flight-controller)
+
+</td>
+<td width="50%" valign="top">
+
 #### 🛰️ Aerial Military Vehicle Detector
 
-YOLOv8n fine-tuned to detect tanks, APCs, fighters, bombers and soldiers in drone and satellite imagery, with an analysis of the precision–recall trade-off for ISR use.
+YOLOv8n fine-tuned to detect tanks, APCs, fighters, bombers and soldiers in drone and satellite imagery.
 
 **mAP@0.5 0.51** · precision 0.63 · recall 0.47
 
@@ -44,13 +57,28 @@ YOLOv8n fine-tuned to detect tanks, APCs, fighters, bombers and soldiers in dron
 [**Live demo**](https://aerial-vehicle-detector.streamlit.app) · [Code](https://github.com/Vioxacute/satellite-vehicle-detector)
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 💳 Credit Risk PD Model
+
+Calibrated logistic regression that estimates probability of default on the South German Credit dataset, scores applications into risk grades A–E and runs a liquidity stress test. Protected characteristics are excluded.
+
+**AUC 0.755** · KS 0.387 · Brier 0.176
+
+`scikit-learn` `pandas` `matplotlib`
+
+[Code](https://github.com/Vioxacute/credit-risk-pd-model)
+
+</td>
 <td width="50%" valign="top">
 
 #### 🏠 London House Price Predictor
 
 Random Forest model that predicts average house prices across London boroughs from salary, crime, population and housing data, served as an interactive web app.
 
-**R² 0.990** · MAE £8,312 on held-out data
+**R² 0.68** on unseen years: a random split had overstated it at 0.99, and the README explains why
 
 `scikit-learn` `pandas` `Streamlit` `Render`
 
@@ -58,37 +86,7 @@ Random Forest model that predicts average house prices across London boroughs fr
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 💳 Credit Risk PD Model
-
-Probability-of-default model built on a calibrated logistic regression pipeline. Scores applications into risk grades and runs a stress test, evaluated with AUC, KS and Brier score.
-
-`scikit-learn` `pandas` `matplotlib`
-
-[Code](https://github.com/Vioxacute/C_R_M)
-
-</td>
-<td width="50%" valign="top">
-
-#### 🗂️ Code Snippet Manager
-
-Flask web app for saving and organising code snippets, with form handling and a database-backed model layer.
-
-`Flask` `Python` `HTML/CSS`
-
-[Code](https://github.com/Vioxacute/Code_Snippet_Manager)
-
-</td>
-</tr>
 </table>
-
----
-
-### 🔧 Hardware
-
-**Autonomous quadcopter** — flight controller written in C++ on an Arduino Nano, with IMU-based stabilisation and Wi-Fi control.
 
 ---
 
